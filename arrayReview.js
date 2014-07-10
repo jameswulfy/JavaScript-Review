@@ -12,7 +12,9 @@ last(threeItems)
 //Fix 'dicedArray' below so that it's an array full of integers from 0-10
 var dicedArray = [0,1,4,5,7,8,10];
 
-  //code here
+dicedArray.splice(2, 0, "2","3");
+dicedArray.splice(6, 0, "6");
+dicedArray.splice(9,0, "9");
 
 
 
