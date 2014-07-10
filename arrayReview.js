@@ -2,8 +2,11 @@ var threeItems = [1,2,3];
 //create a function named 'last' that returns the last object from 'threeItems'
 //alert the result of your function
 
-  //code here
-
+var last = function(arr){
+    alert(arr.length);
+    return arr.length;
+}
+last(threeItems)
 
 
 //Fix 'dicedArray' below so that it's an array full of integers from 0-10
